@@ -1,0 +1,26 @@
+.aside {
+  grid-area: aside;
+  background-color: bisque;
+  }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item {
+  color: rgb(255, 0, 234);
+}
+
+.active {
+    color: green;
+  }

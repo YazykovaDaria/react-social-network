@@ -1,0 +1,22 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 'head head head head'
+  'aside main main main'
+  'footer footer footer footer';
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 70px 10fr 70px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.app-wrapper-content {
+  grid-area: main;
+  background-color: coral;
+}
+
