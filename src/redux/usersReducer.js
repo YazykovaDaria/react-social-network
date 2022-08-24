@@ -1,4 +1,4 @@
-import { usersAPI } from "../api/auth-api";
+import { usersAPI } from "../api/usersAPI";
 
 const TOGGLE_FOLLOW = 'TOGGLE-FOLLOW';
 const  SET_USERS = 'SET-USERS';
